@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="assets/png/favicon.png" />
+    <title>ممكن نتعرف؟</title>
+  </head>
+
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <section>
+        <!-- Top Bar -->
+        <div class="topbar">
+          <div class="logo">
+            <img src="assets/svg/Logo.svg" alt="ممكن نتعرف" />
+          </div>
+        </div>
+
+        <!-- Title -->
+        <div class="Main-Header">
+          <h1>ممكن نتعرف؟</h1>
+          <p>من أي رقم قومي مصري هتقدر تعرف شوية تفاصيل </p>
+        </div>
+
+        <!-- Search -->
+        <div class="search">
+          <form>
+            <img src="assets/svg/Search.svg" alt="Search" />
+            <input
+              type="text"
+              name="ID-Number"
+              id="ID-Number"
+              placeholder="الرقم القومي"
+            />
+            <div class="clear d-none">&#215;</div>
+            <button>بحث</button>
+          </form>
+        </div>
+
+        <!-- Search Result -->
+        <div class="search-result-placeholder">
+          <p>اكتب أي رقم قومي عشان تظهرلك بيانات عنه</p>
+          <img
+            src="assets/svg/Results-Placeholder.svg"
+            alt="Search Illustration"
+          />
+        </div>
+
+        <div class="search-result d-none">
+          <div class="card gradient">قدرنا نعرف دا:</div>
+
+          <!-- gender div -->
+          <div class="card gender">
+            <div class="card-header">
+              <img src="assets/svg/Gender.svg" alt="Gender" />
+              <div class="title">النوع</div>
+            </div>
+            <div class="card-body">
+              <div class="value">انثى</div>
+            </div>
+          </div>
+
+          <!-- location div -->
+
+          <div class="card location">
+            <div class="card-header">
+              <img src="assets/svg/Location.svg" alt="Location" />
+              <div class="title">محل الإقامة</div>
+            </div>
+            <div class="card-body">
+              <div class="value">كفر الشيخ</div>
+            </div>
+          </div>
+
+          <!-- BirtDay div -->
+          <div class="card birth-date">
+            <div class="card-header">
+              <img src="assets/svg/BirthDate.svg" alt="BirthDate" />
+              <div class="title">تاريخ الميلاد</div>
+            </div>
+
+            <div class="card-body">
+              <div class="value">1 سبتمبر 2002</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          تقدر تبعتلنا على الإيميل دا:
+          <a href="mailto:agogo7027@gmail.com">agogo7027@gmail.com</a>
+        </footer>
+      </section>
+    </div>
+
+    <!-- Toast pops up and tells whether input is true or false-->
+    <div id="toast"></div>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
